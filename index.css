@@ -1,3 +1,10 @@
-body{
-	background-color : black;
-  }
+body {
+	background-color: black;
+}
+div.vertical-line {
+	width: 3px;
+
+	background-color: yellow;
+	height: 100%;
+	float: left;
+}
