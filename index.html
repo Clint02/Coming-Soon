@@ -20,23 +20,23 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
 		/>
-		<link rel="stylesheet" href="./index.css" />
 	</head>
 
-	<body>
+	<body class="bg-black">
 		<div class="container mx-auto">
 			<div
-				class="grid grid-cols-1 lg:grid-cols-2 gap-4 px-8 py-5 h-screen items-center w-full"
+				class="grid grid-cols-1 lg:grid-cols-7 gap-4 px-8 py-5 h-screen items-center w-full"
 			>
-				<div
-					class="flex flex-row justify-self-center lg:border-r-4 lg:border-yellow-400 w-auto"
-				>
-					<img src="logo.jpg" class="w-80 h-80 lg:mr-48 lg:ml-24" />
+				<div class="flex flex-row col-span-3 justify-self-center w-auto">
+					<img src="logo.jpg" class="w-80 h-80" />
 				</div>
-				<div class="flex flex-col justify-self-center">
+				<div class="lg:flex lg:flex-col lg:items-center hidden">
+					<div class="h-96 w-1 bg-yellow-400"></div>
+				</div>
+				<div class="flex flex-col col-span-3 justify-self-center">
 					<div>
 						<h1
-							class="font-bold text-primary text-7xl tracking-widest text-white text-center animate-bounce"
+							class="font-bold text-primary text-8xl tracking-widest text-white text-center animate-bounce"
 						>
 							COMING SOON
 						</h1>
