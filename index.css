@@ -1,1 +1,10 @@
 
+.font-primary {
+    font-family: 'Chivo', sans-serif;
+}
+.bg-primary{
+    background-color: #D49A47 !important;
+}
+i.fab:hover{
+    color: #D49A47 !important;
+}
